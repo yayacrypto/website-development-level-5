@@ -1,0 +1,14 @@
+{
+  "name": "website-development-level-5",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Study Buddy: a small server that keeps an AI key secret.",
+  "license": "MIT",
+  "engines": { "node": ">=20.6" },
+  "scripts": {
+    "start": "node src/server.js",
+    "start:env": "node --env-file=.env src/server.js",
+    "test": "node --test"
+  }
+}
