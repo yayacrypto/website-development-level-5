@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Study Buddy | Level 5</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="page app">
+    <p class="eyebrow">LEVEL 05 + AI</p>
+    <h1>Study Buddy</h1>
+    <p>Ask a beginner web development question. The browser talks to your own server. Only the server knows the secret key.</p>
+    <form id="ask-form" class="ask">
+      <label for="question">Your question</label>
+      <textarea id="question" maxlength="500" required placeholder="What is the difference between let and const?"></textarea>
+      <button type="submit" id="send">Ask</button>
+    </form>
+    <p id="mode" class="badge" hidden></p>
+    <div id="answer" class="answer" role="status" hidden></div>
+    <footer>AI can suggest. You decide, understand, and test.</footer>
+  </main>
+</body>
+</html>
